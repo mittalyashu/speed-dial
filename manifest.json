@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Speed Dial",
+  "description": "Give access to the bookmarks and most visited pages in a new tab.",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "chrome://favicon/"],
+  "optional_permissions": ["tabs", "topSites", "management", "bookmarks"],
+  "icons": {
+    "200": "favicon.png",
+    "128": "favicon.png",
+	  "19": "favicon.png"
+  },
+  "minimum_chrome_version" : "22"
+}

@@ -1,0 +1,79 @@
+$white: rgba(255, 255, 255, 0.7)
+$black: #000000
+$background_color: #F2F2F2
+$border: #ccc
+
+@import "https://fonts.googleapis.com/css?family=Roboto"
+
+*
+  margin: 0
+  padding: 0
+
+body
+  box-sizing: border-box
+  background:
+    image: url(http://i.imgur.com/tqWb9iE.jpg)
+    size: cover
+    repeat: no-repeat
+    // color: $background_color
+  max-width: 50rem
+  margin: 0 auto
+  padding: 5rem 0 0 0
+  font-family: 'Roboto', sans-serif
+
+  ul
+
+    li
+      list-style: none
+      display: inline-table
+
+      a
+        text-decoration: none
+        cursor: pointer
+
+        .card
+          box-sizing: border-box
+          background-color: $white
+          width: 142px
+          height: 105.7px
+          padding: 4px 4px 0px
+          margin: 7.01px
+          border-radius: 4px
+          border: 1px solid $border
+          text-align: center
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
+
+          &:hover
+            box-shadow: none
+            background-color: #fff
+
+            .thumbnail
+              background-color: #fff
+
+            .title
+              background-color: #fff
+
+          .thumbnail
+            background:
+              size: contain
+              position: center center
+              repeat: no-repeat
+            height: 77.7px
+
+
+        .title
+          margin: 0px auto
+          display: block
+          color: #8C7E7E
+          font:
+            size: 12px
+            weight: normal
+            style: normal
+          height: 22px
+          overflow: hidden
+          line-height: 20px
+          padding: 2px 5px 0px 5px
+          box-sizing: border-box
+
+          &:hover
+            color: $black
