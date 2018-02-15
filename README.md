@@ -1,4 +1,4 @@
-## Help me! To continue manange this project
+## Help me! To continue manage this project
 
 I've put a lot of time and effort into making **Speed Dial** project. If you love it, you can buy me a coffee. I promise it will be a good investment 😉.
 
